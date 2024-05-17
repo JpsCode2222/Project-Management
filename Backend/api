@@ -1,0 +1,20 @@
+1] Admin Registraion :
+method : post
+url : http://localhost:1000/register
+data : {
+        "username":"admin@123",
+        "email":"admin@gmail.com",
+        "password":"pass"
+        }
+
+
+2] Admin Login :
+method : post
+url : http://localhost:1000/login 
+data : {
+        "email":"admin@gmail.com",
+        "password":"pass"
+        }
+
+
+
